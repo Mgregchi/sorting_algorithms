@@ -3,12 +3,12 @@
 ## Resources
 **Read or watch:**
 
-- Sorting algorithm
-- Big O notation
-- Sorting algorithms animations
-- 15 sorting algorithms in 6 minutes (WARNING: The following video can trigger seizure/epilepsy. It is not required for the project, as it is only a funny visualization of different sorting algorithms)
-- CS50 Algorithms explanation in detail by David Malan
-- All about sorting algorithms
+- [Sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm)
+- [Big O notation](https://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation)
+- [Sorting algorithms animations](https://www.toptal.com/developers/sorting-algorithms)
+- [15 sorting algorithms in 6 minutes](https://www.youtube.com/watch?v=kPRA0W1kECg) (WARNING: The following video can trigger seizure/epilepsy. It is not required for the project, as it is only a funny visualization of different sorting algorithms)
+- [CS50 Algorithms explanation in detail by David Malan](https://www.youtube.com/watch?v=yb0PY3LX2x8&t=2s)
+- [All about sorting algorithms](https://www.geeksforgeeks.org/sorting-algorithms/)
 
 
 ## Learning Objectives
@@ -30,10 +30,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
 - You are not allowed to use global variables
 - No more than 5 functions per file
-- Unless specified otherwise, you are not allowed to use the standard library. Any use of functions like printf, puts, Ö is totally forbidden.
-- In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you donít have to push them to your repo (if you do we wonít take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
+- Unless specified otherwise, you are not allowed to use the standard library. Any use of functions like printf, puts, ‚Ä¶ is totally forbidden.
+- In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don‚Äôt have to push them to your repo (if you do we won‚Äôt take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
 - The prototypes of all your functions should be included in your header file called sort.h
-- Donít forget to push your header file
+- Don‚Äôt forget to push your header file
 - All your header files should be include guarded
 - A list/array does not need to be sorted if its size is less than 2.
 
@@ -122,9 +122,16 @@ typedef struct listint_s
 - log(n) -> O(log(n))
 - n * log(n) -> O(nlog(n))
 - n + k -> O(n+k)
-- Ö
+- ‚Ä¶
 
-Please use the ìshortî notation (donít use constants). Example: O(nk) or O(wn) should be written O(n). If an answer is required within a file, all your answers files must have a newline at the end.
+Please use the ‚Äúshort‚Äù notation (don‚Äôt use constants). Example: O(nk) or O(wn) should be written O(n). If an answer is required within a file, all your answers files must have a newline at the end.
 
 ## Tests
 Here is a quick tip to help you test your sorting algorithms with big sets of random integers: [Random.org](https://www.random.org/integer-sets/)
+
+
+## File And Description
+
+| File                  | Description            |
+|-----------------------|------------------------|
+| README.md             | Project description    |
